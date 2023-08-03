@@ -1,5 +1,5 @@
 applications:
-- name: pcf-spring-boot-application-02
+- name: pcf-spring-boot-application-03
   path: target/hello-world-java.jar
   memory: 999M
   random-route: true
