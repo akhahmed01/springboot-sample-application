@@ -1,6 +1,6 @@
 applications:
 - name: pcf-demo-app
-  path: */target/hello-world-java.jar
+  path: target/hello-world-java.jar
   memory: 512M
   random-route: true
   instances: 1
