@@ -1,0 +1,7 @@
+applications:
+- name: pcf-demo-app
+  path: */target/articulate-1.0.jar
+  memory: 512M
+  random-route: true
+  instances: 1
+  buildpack: java_buildpack
