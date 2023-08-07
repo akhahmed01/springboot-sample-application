@@ -2,6 +2,5 @@ applications:
 - name: pcf-spring-boot-aapp
   path: target/hello-world-java.jar
   memory: 999M
-  random-route: true
   instances: 1
   buildpack: java_buildpack
